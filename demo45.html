@@ -1,0 +1,365 @@
+<html>
+<head>
+<style>
+:root
+{
+--mycolor:#ff8000 ! important;
+--ltcolor:##7cc93d;
+}
+#outer
+{
+min-height:1000px;
+width:1200px;
+border:1px solid black;
+margin:0 auto;
+}
+#top
+{
+min-height:580px;
+width:1200px;
+background:url("x.jpg");
+background-size:100% 100%;
+background-attachment:fixed;
+animation-name:slider;
+animation-duration:4s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+}
+top:hover 
+{
+animation-play-state:paused;
+}
+#header
+{
+height:50px;
+width:1200px;
+border-bottom:1px solid white;
+background:rgba(0,0,0,.5);
+position:stickey;
+}
+#logo
+{
+height:50px;
+width:300px;
+text-align:center;
+line-height:50px;
+font-size:35px;
+color:white;
+float:left;
+}
+#menu
+{
+height:50px;
+width:900px;
+border-radius:50px;
+float:left;
+}
+nav ul
+{
+list-style-type:none;
+}
+nav ul li
+{
+height:40;
+width:120px;
+text-align:center;
+line-height:40px;
+transform:translateY(-12px);
+color:white;
+border-radius:50px;
+margin-left:2px;
+transition:all ease 1s;
+font-weight:bold;
+float:left;
+}
+nav ul li:hover
+{
+background:var(--mycolor);
+trasition:all ease 1s;
+}
+#header1
+{
+min-height:500px;
+width:1200px;
+}
+#left
+{
+min-height:500px;
+width:700px;
+float:left;
+color:black;
+padding-top:170px;
+box-sizing:border-box;
+}
+#right
+{
+min-height:450px;
+width:400px;
+float:left;
+background:rgba(0,0,0,.3);
+margin:25px 50px;
+color:white;
+font-weight:bold;
+padding:40px;
+box-sizing:border-box;
+border-radius:10px;
+}
+.txt
+{
+height:45px;
+width:100%;
+border-radius:5px;
+margin-bottom:5px;
+border:none;
+padding-left:10px;
+box-sizing:border-box;
+}
+.txta
+{
+height:80px;
+width:100%;
+border-radius:5px;
+margin-bottom:5px;
+padding-left:10px;
+box-sizing:border-box;
+
+}
+.btn
+{
+background:var(--mycolor);
+height: 45px;
+ width: 100%;
+border-radius: 4px;
+margin-top:10px;
+border: none;
+color: white;
+ font-size: 18px;
+font-weight: bold;
+}
+
+@keyframes slider
+{
+ 
+0%{
+ background:url("abc.jpg");
+background-size:100% 100%;
+}
+50%{
+ background:url("images1.jpg");
+background-size:100% 100%;
+}
+100%{
+ background:url("xyz.jpg");
+background-size:100% 100%;
+}
+
+}
+#aboutus
+{
+ min-height:300px;
+ width:1200px;
+ background:silver;
+ padding:25px 150px;
+ box-sizing:border-box;
+ text-align:justify;
+ column-count:3;
+ column-gap:50px;
+ column-span:3;
+ column-rule:10px groove yellow;
+}
+#aboutcont
+{
+text-decoration:none;
+
+}
+#sarvices
+{
+min-height:500px;
+width:1200px;
+}
+#contactus
+{
+min-height:500px;
+width:1200px;
+background:var(--mycolor);
+}
+#gallery
+{
+min-height:600px;
+width:1200px;
+background:var(--ltcolor);
+}
+#team
+{
+min-height:300px;
+width:1200px;
+}
+#ufooter
+{
+min-height:300px;
+width:1200px;
+background:black;
+border-bottom:2px solid white;
+}
+#bfooter
+{
+min-height:300px;
+width:1200px;
+background:black;
+border-bottom:2px solid white;
+color:white;
+line-height:50px;
+text-align:center;
+font-size:22px;
+}
+.row
+        {
+            height: 250px;
+            width: 900px;
+			margin-left:150px;
+        }
+        .col
+        {
+            height:230px;
+            width:280px;
+            float:left;
+            background: var(--ltcolor);
+            margin:10px;
+            border: 2px solid silver;
+            border-radius: 5px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: justify;
+            transition: all ease .5s;
+        }
+        .col:hover
+        {
+            background:var(--mycolor);
+            transition: all ease .5s;
+            transform:scale(1.005);
+            color:var(--ltcolor);
+            box-shadow: 0px 0px 20px 2px black;
+
+        }
+
+</style>
+</head>
+<body>
+<div id="outer">
+<div id="top">
+<div id="header">
+<div id="logo"> TechStudy<b style="color:var(--mycolor);">Hub</b></div>
+<div id="menu">
+<nav>
+<ul>
+<a href="#"><li>Home</li></a>
+<a href="#"><li>About Us</li></a>
+<a href="#"><li>Sarvices</li></a>
+<a href="#"><li>Gallery</li></a>
+<a href="#"><li>contactUs</li></a>
+<a href="#"><li>Register</li></a>
+<a href="#"><li>Login</li></a>
+</ul>
+</nav>
+</div>
+</div>
+<div id="header1">
+<div id="left">
+<div style="font-size:45px; text-align:center;">Welcome To <b style="color:var(--mycolor)">TechStudy Hub</b></div>
+<div style="font-size:20px; padding:0px 150px; text-align:center">
+printer took a galley of type and scrambled it to make a type specimen book
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</div>
+<div style="height:45px;width:100px;border-radius: 50px;background: var(--mycolor);margin: 0px auto;text-align: center;
+line-height: 45px;margin-top: 50px;">Sign Up</div>
+</div>
+<div id="right">
+Name<br/><input type="text" class="txt" required placeholder="Enter Your name.."/><br/>
+Email<br/><input type="Email" class="txt"required placeholder="Enter Your Email.."/><br/>
+Mobile No.<br/><input type="Email" class="txt" required placeholder="Enter Your Mobile No.."/><br/>
+Massage.<br/><textarea class="txta" 
+required placeholder="Enter Your Massage.."/></textarea><br/>
+<input  type="submit" class="btn" name="id"value="Save"/>
+</div>
+</div>
+</div>
+<div id="aboutus">
+<div style="font-size:32px; text-align:center;">about<b style="color:var(--mycolor);">us</b></div>
+<div id="aboutcont">
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            </p>
+            <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+        </p>
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+</div>
+</div>
+<div id="sarvices">
+    <div style="font-size:32px;text-align:center;">Our <b style="color:var(--mycolor)">Services</b></div>
+            <div class="row">
+                <div class="col">
+                    <center>
+                        <img src="coding.png" alt="" height="40px">
+                        <br>
+                        <b>Software Development</b>
+                    </center>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+                </div>
+                <div class="col">
+                    <center>
+                        <img src=" coding.png" alt="" height="40px">
+                        <br>
+                        <b>Software Development</b>
+                    </center>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+                </div>
+                <div class="col">
+                    <center>
+                        <img src="coding.png" alt="" height="40px">
+                        <br>
+                        <b>Software Development</b>
+                    </center>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+                </div>
+            </div>
+            <div class="row"><div class="col">
+                <center>
+                    <img src="coding.png" alt="" height="40px">
+                    <br>
+                    <b>Software Development</b>
+                </center>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+            </div>
+            <div class="col">
+                <center>
+                    <img src="coding.png" alt="" height="40px">
+                    <br>
+                    <b>Software Development</b>
+                </center>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+            </div>
+            <div class="col">
+                <center>
+                    <img src="coding.png" alt="" height="40px">
+                    <br>
+                    <b>Software Development</b>
+                </center>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+            </div></div>
+        </div
+
+<div id="contactus">
+<div style="font-size:32px; text-align:center;">Contact <b style="color:var(--mycolor);"> Us</b></div>
+<iframe style="width:1000px;margin-left:100px;height:500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.724471281364!2d79.99759085000001!3d26.223303950000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399dadf041f4cde3%3A0x74b8902a20ecd704!2sS.D.S.G%20Inter%20College%20(English%20Medium)!5e0!3m2!1sen!2sin!4v1666232032656!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div id="team"></div>
+<div id="gallery"></div>
+<div id="ufooter"></div>
+<div id="bfooter"></div>
+</div>
+</body>
+</html>

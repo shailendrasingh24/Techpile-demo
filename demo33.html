@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+:root
+{
+--mycolor:red;
+--gcolor:lightgreen;
+--x:50px;
+}
+.a
+{
+color:var(--mycolor);
+background:var(--gcolor);
+border:10px groove :var(--gcolor);
+font-size:var(--x)
+}
+.b{
+color:blue;
+background:black
+}
+</style>
+</head>
+<body>
+<p class="a">para1</p>
+<p class="b">para2</p>
+<p class="a">para3</p>
+<p class="b">para4</p>
+<p class="a">para5</p>
+<p class="b">para6</p>
+<p class="a">para7</p>
+<p class="b">para8</p>
+<h1 style="color:var(mycolor);">this is h1</h1>
+<h1 style="color:var(--gcolor);var(--x); ">this is h2</h1>
+</body>
+</html>

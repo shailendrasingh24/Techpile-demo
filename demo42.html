@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>ApprenticeShip Batch2</title>
+<style>
+#box
+{
+height:400px;
+width:600px;
+background:rgba(255,255,0,.9);
+margin:80px auto;
+border:10px solid black;
+text-align:center;
+line-height:400px;
+transform-style:preserve-3d;
+transform:rotateY(60deg)
+}
+#inner
+{
+height:400px;
+width:600px;
+font-family:algerian;
+font-size:40px;
+color:white;
+background:url(x.jpg);
+background-size:100% 100%;
+//transform:perspective(1000px)rotateX(60deg);
+transition:all ease 2s;
+//perspective:800px;
+//transform-origin:100% 50%;
+}
+#inner:hover
+{
+transition:all ease 2s;
+transform:perspective(800px)rotateY(360deg);
+//transform:rotateX(360deg);
+//transform:rotateY(45deg);
+//transform-origin:100% 100%;
+
+}
+
+</style>
+</head>
+<body>
+<div id="box">
+<div id="inner">Welcome To Techpile</div>
+</div>
+</body>
+</html>

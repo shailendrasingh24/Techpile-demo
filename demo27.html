@@ -1,0 +1,48 @@
+ <html>
+ <head>
+ <title> Apprenticeship Batch2</title>
+ <style>
+ body
+ {
+ background:aqua;
+ color:red;
+ font-size:70px;
+ text-align:center;
+ line-height:600px;
+ font-family:algerian;
+ animation-name:abc;
+animation-duration:2s;
+animation-iteration-count:infinite;
+//animation-delay:3s; 
+//animation-direction:reverse;
+//animation-direction:alternate;
+animation-direction:alternate-reverse;
+ }
+ body:hover
+ {
+ animation-play-state:pause;
+ }
+ 
+ 
+ @keyframes abc
+ {
+ from{
+ background:url(a.jpg);
+ color:white;
+ //text-shadow:0px 0px 10px white,10px 10px 5px aqua;
+ text-shadow:80px 80px 10px white,-80px -80px 1px aqua;
+ }
+ to{
+ background:url(ab.jpg);
+ color:yellow;
+ font-size:100px;
+ 
+ }
+ }
+ 
+ </style>
+ </head>
+ <body>
+ Welcome To Techpile
+ </body>
+ </html>
